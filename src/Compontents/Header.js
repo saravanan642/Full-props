@@ -12,7 +12,7 @@ const Header = () => {
         <h2 className=" font-bold text-xl border border-none pl-[20%] m-[30px] ">Saravanan</h2>
 
         <div className="font-semibold flex gap-[80%] border border-none pr-[30%]  m-[30px]">
-          <a href="/">Home</a>
+          <a href="/Home">Home</a>
           <Link to={ "/Contact"} >Contact</Link>
           <a href="/Nave" className="" onClick={ ()=> nagivate ("/Nave")}>Nave</a>
         </div>

@@ -1,4 +1,5 @@
 import Contact from "./Compontents/Contact";
+import Firstpage from "./Compontents/Firstpage";
 import Footer from "./Compontents/Footer";
 import Header from "./Compontents/Header";
 import Home from "./Compontents/Home";
@@ -13,10 +14,11 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Firstpage />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Nave" element={<Nave />} />
-        {/* <Route path='*' element={<Pagenotfound />} /> */}
+        <Route path='*' element={<Pagenotfound />} />
       </Routes>
 
       <Footer />
