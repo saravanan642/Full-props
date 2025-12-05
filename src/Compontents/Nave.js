@@ -3,7 +3,7 @@ import React from 'react'
 const Nave = () => {
   return (
     <div className='bg-orange-600'>
-      <p>tha nave tag is tha function of nagivate using tages</p>
+      <p className=' text-3xl text-center p-[50px]'>Nave page</p>
     </div>
   )
 }

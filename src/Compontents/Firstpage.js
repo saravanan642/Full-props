@@ -6,7 +6,7 @@ import Nave from './Nave'
 const Firstpage = () => {
   return (
     <div>
-      <div className=' bg-pink-950 w-full '>Firstpage</div>
+      <div className=' bg-pink-950  p-[100px] text-center text-3xl  '>Firstpage</div>
       <Home />
       <Contact/>
       <Nave />

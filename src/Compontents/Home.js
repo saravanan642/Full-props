@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       <div className='bg-green-800 p-[2%]'>
-        <p>tha home was has been tha wotking </p>
+        <p className=' text-center text-3xl '> Home page </p>
       </div>
      
     </div>
